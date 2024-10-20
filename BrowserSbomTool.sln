@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrowserSbomTool", "BrowserSbomTool\BrowserSbomTool.csproj", "{C36CC7A2-6469-425B-A329-E4509E09B717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrowserSbomTool", "BrowserSbomTool\BrowserSbomTool.csproj", "{C36CC7A2-6469-425B-A329-E4509E09B717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{3D8AD2B2-7500-4DC6-B694-58D042CE21BF}"
+	ProjectSection(SolutionItems) = preProject
+		build.sh = build.sh
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
